@@ -1,7 +1,6 @@
 import React from 'react';
 import {StateProvider} from './src/context/StateProvider';
 import {Counter} from './src/components/Counter';
-import {Text} from 'react-native';
 
 const App = () => {
   const initialState = {

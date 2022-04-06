@@ -2,7 +2,6 @@ import React from 'react';
 import {useStateValue} from '../context/StateProvider';
 import {Text, Button} from 'react-native';
 
-
 export const Counter = () => {
   const [{count}, dispatch] = useStateValue();
 
